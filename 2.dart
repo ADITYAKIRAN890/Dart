@@ -12,4 +12,9 @@ void main(){
   print(b);
   print(b.length); // works because b is of type dynamic and dynamic allows any type of value and any property or method can be accessed on it without compile-time checks
 
+  //Null Safety: Nullable type operator Sign:"?"
+  //String name:- This is a non-nullable type, it cannot be null and must be initialized with a value before it can be used.
+  String? name; //This is a nullable type, it can be null and does not require initialization with a value
+  print(name.toString());
+  print(name.hashCode);
 }
